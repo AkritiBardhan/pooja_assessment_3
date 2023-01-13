@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+
+    <header>
+        <center><h1> Favorite radio music poll </h1></center>
+
+    </header>
+
+    <body>
+
+        <br> 
+
+
+        <div id = "half">
+        <center>
+        <p>The radio station 1010101.34 is holding a poll to play a playlist with songs that are highly liked 
+            by the people that listen to our station.
+        </p>
+        <p>There are many songs that are highly liked as of now. Choose the ones that you like the most! Additionally 
+            if you fill out our form and subscribe to our station you will be entered in a raffle to get a free iphone 14.
+        </p>
+        <h3>Here are our results so far!</h3>
+        <h2>Highly liked Genre:</h2>
+        <p>Pop Music<br>Kpop<br>classical music<br>Orchestra<br>Ruth B<br>Break-up songs(Sour album)<br>Folklore<br>Country music</p>
+
+        <h2>Highly liked artist:</h2>
+        <p>Tate Mcrae<br>Justin Bieber<br>Dove Cameron<br>Doja Cat<br>Ruth B<br>Taylor swift<br>Conan Gray<br>Olivia Rodrigo<br></p>
+        <h4> Fill out the form to listen to your favorite music and genres on the radio!</h4>
+
+        <br>
+
+        <form action = "a.php" method = "POST">
+
+            <fieldset>
+                <legend align = "center">Login/Signup</legend>
+                    <br>
+            <label for = "a">Email:</label>
+            <input type = "email" name = "a" placeholder = "Type in your email">
+            <p></p>
+            <label for = "b">Name:</label>
+            <input type = "text" name = "b" placeholder = "Enter your name">
+            <p></p>
+            <label for = "d">Enter a song suggestion:</label>
+            <input type = "text" name = "d" placeholder = "Enter your favorite songs">
+            <p></p>
+            <label for = "gender">Enter your favorite Genres:</label>
+            <p></p>
+            <label for = "genderf">Female</label> <input type = "radio" name = "genderf" >
+            <label for = "genderm">Male</label> <input type = "radio" name = "genderm" >
+        </fieldset>
+        </form>
+
+        <br>
+
+        <h2>Here are some of the most commonly requested music:</h2>
+
+    </div>
+
+
+
+
+        <div class="grid-container">
+            <div class="grid-item"> 
+                <center><p>18 by One direction</p></center>
+                <iframe src="https://www.youtube.com/watch?v=aqRr2TQnpPw" width="320" height="300" scrolling="no"></iframe>
+             </div>
+        
+            <div class="grid-item">
+                <center><p>August by Raylor swift</p></center>
+                <iframe src="https://www.youtube.com/watch?v=nn_0zPAfyo8" width="320" height="300" scrolling="no"></iframe> 
+            </div>
+        
+            <div class="grid-item">
+                <center><p>Deja vu by Olivia Rodrigo</p></center>
+                <iframe src="https://www.youtube.com/watch?v=fWgboQNNfB8" width="320" height="300" scrolling="no"></iframe>
+            </div>  
+        
+          </div>
+        
+
+
+    </center>
+    </body>
+
+</html>
+
+<style>
+
+
+p{
+    size: 13px;
+}
+
+#half{
+    width: 50%;
+    padding-left: 340px;
+}
+
+
+form{
+        font-size: 18px;
+        width: 100%;
+        height: 800px;
+        background-color:#B9E7B0;
+        color:black
+    }
+
+body{
+    color:white;
+    background-color:black;
+}
+
+    h1{
+        /* background-color: #A7D89D;*/
+        font-size: 50px;
+    }
+
+    legend{
+        font-size: 30px;
+    }
+
+    fieldset{
+        height: 760px;
+        margin: 20px;
+    }
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        background-color: #B9E7B0;
+}
+    .grid-item {
+        background-color: #B9E7B0;
+        font-size: 30px;
+        text-align: center;     
+        color:black;
+}
+
+header{
+    border-bottom: 1px solid;
+    border-color: white;
+    background-color:#B9E7B0 ;
+    padding: 10px;
+    color: black;
+}
+
+
+</style>
+
